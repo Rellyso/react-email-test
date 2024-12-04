@@ -164,16 +164,16 @@ const BuyingConfirmationEmail = () => {
               </Section>
               <Section className="mt-4">
                 <Heading className="text-2xl font-semibold text-neutral-600">
-                  Em caso de duvidas, fale conosco
+                  Em caso de dúvidas, fale conosco
                 </Heading>
 
                 <WhiteContainer>
                   <Row>
                     <Column align="left">
-                      <Text className="p-0 m-0 text-base font-normal text-neutral-300">
+                      <Text className="p-0 m-0 text-sm sm:text-base font-normal text-neutral-300">
                         Horários:
                       </Text>
-                      <Text className="p-0 m-0 text-base font-normal text-neutral-400">
+                      <Text className="p-0 m-0 text-sm sm:text-base font-normal text-neutral-400">
                         De segunda-feira à sexta-feira das 8h às 18h Sábados das
                         8h às 12h
                       </Text>
@@ -181,27 +181,27 @@ const BuyingConfirmationEmail = () => {
                   </Row>
                   <Row className="mt-4">
                     <Column align="left">
-                      <Text className="p-0 m-0 text-base font-normal text-neutral-300">
+                      <Text className="p-0 m-0 text-sm sm:text-base font-normal text-neutral-300">
                         E-mail:
                       </Text>
-                      <Text className="p-0 m-0 text-base font-normal text-neutral-400 break-all">
+                      <Text className="p-0 m-0 text-sm sm:text-base font-normal text-neutral-400 break-all">
                         atendimento@cartaosimples.com.br
                       </Text>
                     </Column>
                   </Row>
                   <Row className="mt-4">
                     <Column align="left">
-                      <Text className="p-0 m-0 text-base font-normal text-neutral-300">
-                        Whatsapp:
+                      <Text className="p-0 m-0 text-sm sm:text-base font-normal text-neutral-300">
+                        WhatsApp:
                       </Text>
-                      <Text className="p-0 m-0 text-base font-normal text-neutral-400">
+                      <Text className="p-0 m-0 text-sm sm:text-base font-normal text-neutral-400 break-all">
                         (47) 9772-4516
                       </Text>
                     </Column>
                   </Row>
                   <Button
                     href="https://wa.me/554797724516"
-                    className="mt-[10px] bg-primary-500 rounded-base px-6 py-4 text-white"
+                    className="mt-[10px] bg-primary-500 rounded-base px-4 py-3 sm:px-6 sm:py-4 text-white text-sm sm:text-base"
                   >
                     Conversar por Whatsapp
                   </Button>
